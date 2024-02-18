@@ -1,0 +1,113 @@
+
+:root {
+
+    --background-color: #3085C3 ;
+    --font-family: 'DM Sans', sans-serif
+
+}
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: var(--background-color);
+    font-family: (--font-family)
+}
+
+
+#container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vh;
+    height: 75vh;
+    background-color: #FEFBF6 ;
+    box-shadow: 7px 16px 35px 6px rgba(0,0,0,0.75);
+    border-radius: 10%
+}
+
+
+#ingreso {
+    font-size: 2rem;
+    cursor: default;
+    text-align: center;
+    background-color: var(--background-color);
+    color: #FEFBF6;
+    border-radius: 22% 0;
+    border-style: outset solid
+}
+
+.italic {
+    font-size: 2.3rem;
+    font-style: italic;
+    color: #fefeff
+}
+
+input {
+
+    height: 2rem;
+    width: 22rem;
+    margin-top: 1.5rem;
+    font-size: 1.35rem;
+    text-align: center
+}
+
+#qr{
+
+    display: none;
+    margin: 3rem
+}
+
+#btn-generador {
+    align-self: center;
+    background-color: var(--background-color);
+    font-size: 1.5rem;
+    height: 3.5rem;
+    width: 12rem;
+    border-radius: 5%;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+    color: #FEFBF6 ;
+    border: none;
+    cursor: pointer
+}
+
+
+#btn-descarga , #btn-inicio   {
+
+    align-self: center;
+    background-color: var(--background-color);
+    font-size: 1.5rem;
+    height: 3.8rem;
+    width: 13.5rem;
+    border-radius: 5%;
+    margin: 3rem .5rem 1rem .5rem;
+    color: #FEFBF6 ;
+    border: none;
+    cursor: pointer
+
+}
+
+#botones {
+   
+    display: none
+}
+
+#btn-descarga:hover , #btn-inicio:hover, #btn-generador:hover {
+
+    background-color: #2675ac
+}
+
+#url-invalid{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: crimson;
+    display: none;
+    text-align: center
+}
+    
