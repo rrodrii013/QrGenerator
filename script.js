@@ -64,6 +64,7 @@ btnGenerador.addEventListener('click', function (event)  {
 
 
 function descargaQr() {
+    
     // Captura el contenido del div como una imagen usando html2canvas
     html2canvas(qr, {
 
